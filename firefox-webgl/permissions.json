@@ -3,11 +3,8 @@
  "sound-card": true,
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "executable": "/usr/bin/firefox",
- "inherit-working-directory": false,
- "dependency": "firefox",
  "x11": true,
  "graphics-card": true,
- "system-dirs": [],
  "user-dirs": [
   "Downloads"
  ],

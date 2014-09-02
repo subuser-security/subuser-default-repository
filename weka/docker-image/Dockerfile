@@ -1,4 +1,4 @@
-FROM subuser-libx11
+FROM-SUBUSER-IMAGE libx11
 RUN apt-get update
 
 # Fake a fuse install

@@ -1,4 +1,4 @@
-FROM subuser-libx11
+FROM-SUBUSER-IMAGE libx11
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update

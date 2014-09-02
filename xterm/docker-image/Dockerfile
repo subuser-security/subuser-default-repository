@@ -1,3 +1,3 @@
-FROM subuser-libx11
+FROM-SUBUSER-IMAGE libx11
 RUN apt-get update
 RUN TERM=linux apt-get install -y xterm

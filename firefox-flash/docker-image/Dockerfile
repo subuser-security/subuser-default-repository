@@ -1,4 +1,4 @@
-FROM subuser-firefox
+FROM-SUBUSER-IMAGE firefox
 
 #ADD http://archive.canonical.com/pool/partner/a/adobe-flashplugin/adobe-flashplugin_11.2.202.378.orig.tar.gz flash-plugin
 RUN echo "deb http://archive.ubuntu.com/ubuntu/ precise-security multiverse" >> /etc/apt/sources.list

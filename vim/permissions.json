@@ -3,7 +3,5 @@
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "last-update-time": "2014-02-20-10:09",
  "executable": "/usr/bin/vim",
- "x11": false,
- "inherit-working-directory": true,
- "allow-network-access": false
+ "access-working-directory": true
 }

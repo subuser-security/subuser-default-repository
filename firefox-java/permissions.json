@@ -3,12 +3,9 @@
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"last-update-time"          : "2014-02-15-18:15"
  ,"executable"                : "/usr/bin/firefox"
- ,"dependency"                : "firefox"
  ,"user-dirs"                 : ["Downloads"]
- ,"system-dirs"               : []
  ,"x11"                       : true
  ,"sound-card"                : true
- ,"inherit-working-directory" : false
  ,"allow-network-access"      : true
 }
 

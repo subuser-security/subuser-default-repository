@@ -4,10 +4,7 @@
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "executable": "/usr/local/bin/chrome",
  "last-update-time": "2014-06-14-08:17",
- "inherit-working-directory": false,
- "dependency": "libx11",
  "x11": true,
- "system-dirs": [],
  "user-dirs": [
   "Downloads"
  ],
