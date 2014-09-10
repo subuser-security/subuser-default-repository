@@ -5,7 +5,7 @@
  ,"executable"                : "/usr/bin/firefox"
  ,"user-dirs"                 : ["Downloads"]
  ,"x11"                       : true
- ,"sound"                     : true
+ ,"sound-card"                     : true
  ,"allow-network-access"      : true
 }
 
