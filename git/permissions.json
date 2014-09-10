@@ -1,9 +1,8 @@
 {
- "description"                : "The git version control system"
- ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
- ,"last-update-time"          : "2014-02-12-12:59"
- ,"executable"                : "/usr/bin/git"
- ,"access-working-directory" : true
- ,"allow-network-access"      : true
+ "executable": "/usr/bin/git",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "The git version control system",
+ "last-update-time": "2014-09-10-08:54",
+ "access-working-directory": true,
+ "allow-network-access": true
 }
-

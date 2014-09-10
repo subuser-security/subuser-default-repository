@@ -1,7 +1,7 @@
 {
- "description": "A simple powerful text editor",
- "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
- "last-update-time": "2014-02-20-10:09",
+ "last-update-time": "2014-09-10-08:54",
  "executable": "/usr/bin/vim",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "A simple powerful text editor",
  "access-working-directory": true
 }

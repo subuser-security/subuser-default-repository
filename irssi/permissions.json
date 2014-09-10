@@ -1,8 +1,7 @@
 {
- "description"                : "A simple terminal based irc client"
- ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
- ,"last-update-time"          : "2014-02-12-12:59"
- ,"executable"                : "/usr/bin/irssi"
- ,"allow-network-access"      : true
+ "last-update-time": "2014-09-10-08:54",
+ "executable": "/usr/bin/irssi",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "A simple terminal based irc client",
+ "allow-network-access": true
 }
-
