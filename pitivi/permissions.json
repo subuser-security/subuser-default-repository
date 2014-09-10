@@ -1,0 +1,10 @@
+{
+ "description"                : "Video editor."
+,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/pitivi"
+ ,"x11"                       : true
+ ,"sound-card"                : true
+ ,"webcam"                    : true
+ ,"access-working-directory" : true
+}
+
