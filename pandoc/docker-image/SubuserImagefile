@@ -1,0 +1,3 @@
+FROM debian
+ENV LANG C.UTF-8
+RUN TERM=linux apt-get install -y pandoc
