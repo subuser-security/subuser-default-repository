@@ -1,0 +1,8 @@
+{
+ "description"                : "Password manager."
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/keepassx"
+ ,"dependency"                : "libx11"
+ ,"x11"                       : true
+}
+
