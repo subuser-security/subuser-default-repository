@@ -1,0 +1,8 @@
+{
+ "description"                : "UML editor"
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/umlet"
+ ,"x11"                       : true
+ ,"access-working-directory" : true
+}
+
