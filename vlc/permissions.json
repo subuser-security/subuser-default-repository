@@ -1,0 +1,11 @@
+{
+ "description"                : "The vlc video player."
+,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/vlc"
+ ,"x11"                       : true
+ ,"sound-card"                : true
+ ,"webcam"                    : true
+ ,"access-working-directory" : true
+ ,"allow-network-access"      : true
+}
+
