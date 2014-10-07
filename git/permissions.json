@@ -4,5 +4,6 @@
  "description": "The git version control system",
  "last-update-time": "2014-09-10-08:54",
  "access-working-directory": true,
- "allow-network-access": true
+ "allow-network-access": true,
+ "basic-common-permissions" : true
 }

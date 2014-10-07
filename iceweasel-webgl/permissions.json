@@ -9,5 +9,6 @@
   "Downloads"
  ],
  "allow-network-access": true,
- "last-update-time": "2014-02-24-17:13"
+ "last-update-time": "2014-02-24-17:13",
+ "basic-common-permissions" : true
 }

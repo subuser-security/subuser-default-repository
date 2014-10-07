@@ -4,5 +4,6 @@
  ,"executable"                : "/usr/bin/keepassx"
  ,"dependency"                : "libx11"
  ,"x11"                       : true
+ ,"basic-common-permissions" : true
 }
 

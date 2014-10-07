@@ -3,5 +3,6 @@
  "executable": "/usr/bin/irssi",
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "description": "A simple terminal based irc client",
- "allow-network-access": true
+ "allow-network-access": true,
+ "basic-common-permissions" : true
 }

@@ -7,5 +7,6 @@
  ,"webcam"                    : true
  ,"access-working-directory" : true
  ,"allow-network-access"      : true
+ ,"basic-common-permissions" : true
 }
 

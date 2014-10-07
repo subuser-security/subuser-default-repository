@@ -6,5 +6,6 @@
  "access-working-directory": true,
  "privileged": true,
  "as-root": true,
- "allow-network-access": true
+ "allow-network-access": true,
+ "basic-common-permissions": true
 }

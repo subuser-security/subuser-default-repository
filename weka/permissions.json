@@ -7,5 +7,6 @@
   "data"
  ],
  "x11": true,
- "access-working-directory": true
+ "access-working-directory": true,
+ "basic-common-permissions" : true
 }

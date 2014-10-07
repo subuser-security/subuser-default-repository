@@ -6,5 +6,6 @@
  ,"sound-card"                : true
  ,"webcam"                    : true
  ,"access-working-directory" : true
+ ,"basic-common-permissions" : true
 }
 
