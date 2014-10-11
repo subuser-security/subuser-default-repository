@@ -4,7 +4,7 @@
  ,"last-update-time"          : "2014-02-12-19:20"
  ,"executable"                : "/usr/bin/libreoffice"
  ,"x11"                       : true
- ,"inherit-working-directory" : true
+ ,"access-working-directory" : true
  ,"basic-common-permissions" : true
 }
 
