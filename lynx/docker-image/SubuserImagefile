@@ -1,0 +1,2 @@
+FROM debian
+RUN apt-get update -yqq &&  apt-get install -yqq lynx
