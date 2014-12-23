@@ -1,0 +1,9 @@
+{
+ "description"                : "Freecad, Computer Aided Design software"
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/freecad"
+ ,"x11"                       : true
+ ,"access-working-directory" : true
+ ,"basic-common-permissions" : true
+}
+
