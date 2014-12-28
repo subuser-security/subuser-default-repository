@@ -1,0 +1,10 @@
+{
+ "description"                : "VNC viewer for X11."
+,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/xtightvncviewer"
+ ,"x11"                       : true
+ ,"sound-card"                : true
+ ,"allow-network-access"      : true
+ ,"basic-common-permissions" : true
+}
+
