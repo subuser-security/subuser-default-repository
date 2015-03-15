@@ -1,4 +1,4 @@
 FROM-SUBUSER-IMAGE libjava
-RUN apt-get update && apt-get install -yyq arduino git picocom python make setuptools
+RUN apt-get update && apt-get install -yyq arduino git picocom python make python-setuptools
 RUN git clone git://github.com/amperka/ino.git
 RUN cd ino ; make install
