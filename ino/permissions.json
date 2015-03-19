@@ -3,5 +3,5 @@
  "maintainer":"Timothy Hobbs <timothyhobbs@seznam.cz>",
  "access-working-directory":true,
  "serial-devices":true,
- "executable":"/usr/bin/ino"
+ "executable":"/usr/local/bin/ino"
 }
