@@ -1,0 +1,7 @@
+{
+ "executable": "/usr/bin/offlineimap",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "A simple IMAP synchronization client",
+ "allow-network-access": true,
+ "basic-common-permissions" : true
+}
