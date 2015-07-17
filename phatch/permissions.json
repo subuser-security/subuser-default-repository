@@ -1,9 +1,10 @@
 {
- "description"                : "A complex and powerful text editor"
+ "description"                : "A batch photo processor"
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
- ,"executable"                : "/usr/bin/emacs"
+ ,"executable"                : "/usr/bin/phatch"
  ,"x11"                       : true
  ,"access-working-directory" : true
- ,"basic-common-permissions" : true
+ ,"stateful-home" : true
+ ,"inherit-timezone": true
 }
 

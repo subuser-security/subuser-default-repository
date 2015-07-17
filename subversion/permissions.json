@@ -3,7 +3,6 @@
  "executable": "/usr/bin/svn",
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "allow-network-access": true,
- "last-update-time": "2014-10-23-17:41",
  "inherit-locale": true,
  "access-working-directory": true,
  "inherit-timezone": true,

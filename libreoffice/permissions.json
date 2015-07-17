@@ -1,7 +1,6 @@
 {
  "description"                : "Crashy office clone"
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
- ,"last-update-time"          : "2014-02-12-19:20"
  ,"executable"                : "/usr/bin/libreoffice"
  ,"x11"                       : true
  ,"access-working-directory" : true

@@ -1,4 +1,4 @@
-FROM-SUBUSER-IMAGE firefox
+FROM-SUBUSER-IMAGE iceweasel
 RUN apt-get update -qq
 RUN TERM=linux apt-get install libfuse2
 RUN cd /tmp ; apt-get download fuse

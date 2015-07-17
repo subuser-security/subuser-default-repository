@@ -1,4 +1,2 @@
-FROM debian
-ENV LANG C.UTF-8
-RUN apt-get update -yqq
+FROM-SUBUSER-IMAGE libdebian
 RUN TERM=linux apt-get install -yqq vim

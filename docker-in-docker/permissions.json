@@ -2,7 +2,6 @@
  "executable": "/usr/local/bin/wrapdocker",
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "description": "Run docker in docker.  This doesn't have any security benefits, but it is good for testing.  This launches a shell with docker-in-docker running in it.",
- "last-update-time": "2014-09-10-08:54",
  "access-working-directory": true,
  "privileged": true,
  "as-root": true,

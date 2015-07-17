@@ -1,2 +1,2 @@
 FROM-SUBUSER-IMAGE libx11
-RUN apt-get update && apt-get install -y emacs
+RUN apt-get update && apt-get upgrade -y && apt-get install -y emacs

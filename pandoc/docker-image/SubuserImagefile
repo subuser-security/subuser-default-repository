@@ -1,3 +1,2 @@
-FROM debian
-ENV LANG C.UTF-8
-RUN apt-get update && apt-get install -y pandoc
+FROM-SUBUSER-IMAGE libdebian
+RUN apt-get install -y pandoc

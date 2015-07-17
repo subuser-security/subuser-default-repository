@@ -1,2 +1,2 @@
-FROM debian
-RUN apt-get update -yqq &&  apt-get install -yqq lynx
+FROM-SUBUSER-IMAGE libdebian
+RUN apt-get install -yqq lynx

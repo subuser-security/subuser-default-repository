@@ -1,1 +1,1 @@
-FROM subuser-firefox
+FROM-SUBUSER-IMAGE iceweasel

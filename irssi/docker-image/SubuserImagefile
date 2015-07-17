@@ -1,3 +1,2 @@
-FROM debian
-RUN apt-get update
+FROM-SUBUSER-IMAGE libdebian
 RUN TERM=linux apt-get install -y irssi

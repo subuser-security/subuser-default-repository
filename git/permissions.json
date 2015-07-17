@@ -2,7 +2,6 @@
  "executable": "/usr/bin/git",
  "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
  "description": "The git version control system",
- "last-update-time": "2014-09-10-08:54",
  "access-working-directory": true,
  "allow-network-access": true,
  "basic-common-permissions" : true
