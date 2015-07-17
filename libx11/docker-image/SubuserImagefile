@@ -1,4 +1,5 @@
 FROM-SUBUSER-IMAGE libdebian
+ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get upgrade -y
 RUN TERM=linux apt-get install -y x11-common x11-utils libx11-6
 ONBUILD RUN apt-get update && apt-get upgrade -y
