@@ -1,0 +1,6 @@
+{
+ "description"                : "Gnu screen/ssh for X11 windows"
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/xpra"
+ ,"x11"                       : true
+}
