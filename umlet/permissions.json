@@ -2,7 +2,7 @@
  "description"                : "UML editor"
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"executable"                : "/usr/bin/umlet"
- ,"x11"                       : true
+ ,"gui":{"clipboard":true,"cursors":true}
  ,"access-working-directory" : true
  ,"basic-common-permissions" : true
 }

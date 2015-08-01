@@ -2,7 +2,7 @@
  "description"                : "A batch photo processor"
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"executable"                : "/usr/bin/phatch"
- ,"x11"                       : true
+ ,"gui":{"clipboard":true,"cursors":true}
  ,"access-working-directory" : true
  ,"stateful-home" : true
  ,"inherit-timezone": true

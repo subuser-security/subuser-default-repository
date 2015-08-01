@@ -2,7 +2,7 @@
  "description"                : "A trivial terminal emulator"
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"executable"                : "/usr/bin/xterm"
- ,"x11"                       : true
+ ,"gui"                       : {"clipboard":true,"cursors":true}
  ,"access-working-directory" : true
  ,"allow-network-access"      : true
  ,"basic-common-permissions" : true

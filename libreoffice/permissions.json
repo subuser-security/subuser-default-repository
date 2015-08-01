@@ -2,7 +2,7 @@
  "description"                : "Crashy office clone"
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"executable"                : "/usr/bin/libreoffice"
- ,"x11"                       : true
+ ,"gui":{"clipboard":true,"cursors":true,"system-tray":true}
  ,"access-working-directory" : true
  ,"basic-common-permissions" : true
 }

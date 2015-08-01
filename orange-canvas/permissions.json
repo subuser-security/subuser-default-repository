@@ -5,7 +5,7 @@
  "user-dirs": [
   "data"
  ],
- "x11": true,
+ "gui":{"clipboard":true,"cursors":true},
  "access-working-directory": true,
  "basic-common-permissions" : true
 }

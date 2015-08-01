@@ -3,9 +3,9 @@
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"executable"                : "/usr/bin/firefox"
  ,"user-dirs"                 : ["Downloads"]
- ,"x11"                       : true
- ,"sound-card"                     : true
+ ,"gui"                       : {"clipboard":true,"cursors":true}
+ ,"sound-card"                : true
  ,"allow-network-access"      : true
- ,"basic-common-permissions" : true
+ ,"basic-common-permissions"  : true
 }
 
