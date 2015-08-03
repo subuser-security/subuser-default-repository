@@ -1,4 +1,5 @@
 FROM debian:sid
+ENV DEBIAN_FRONTEND noninteractive
 ADD check-for-updates /subuser/check-for-updates
 RUN apt-get update && apt-get upgrade -y
 RUN TERM=linux apt-get install -y xpra
