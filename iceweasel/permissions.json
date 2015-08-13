@@ -1,5 +1,5 @@
 {
- "description"                : "The firefox web browser.\n Note: If you have a different version of firefox running already, you must launch firefox with the -new-instance command line argument."
+ "description"                : "The firefox web browser."
  ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
  ,"executable"                : "/usr/bin/firefox"
  ,"user-dirs"                 : ["Downloads"]
