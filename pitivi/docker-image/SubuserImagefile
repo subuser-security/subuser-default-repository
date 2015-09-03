@@ -1,2 +1,0 @@
-FROM-SUBUSER-IMAGE libx11
-RUN TERM=linux apt-get install -yqq pitivi
