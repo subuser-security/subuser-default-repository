@@ -1,0 +1,12 @@
+{
+ "maintainer": "Timothy <timothyhobbs@seznam.cz>",
+ "executable": "/usr/bin/designer-qt4",
+ "basic-common-permissions": true,
+ "description": "GUI designer for QT4 applictions.",
+ "access-working-directory": true,
+ "gui": {
+  "clipboard": true,
+  "cursors": false,
+  "system-tray": false
+ }
+}
