@@ -1,0 +1,2 @@
+FROM-SUBUSER-IMAGE libx11@default
+RUN apt-get update && apt-get upgrade -y && apt-get install -y blender
