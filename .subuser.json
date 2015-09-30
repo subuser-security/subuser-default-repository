@@ -1,0 +1,5 @@
+{
+    "subuser-version-constraints" :
+    [[">", "0.4.1", "latest"],
+     ["<=", "0.4.1", "master"]]
+}
