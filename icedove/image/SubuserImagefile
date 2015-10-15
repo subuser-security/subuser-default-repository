@@ -1,2 +1,2 @@
 FROM-SUBUSER-IMAGE libx11
-RUN TERM=linux apt-get update && apt-get upgrade -yq && apt-get install -y icedove gnu-pgp
+RUN TERM=linux apt-get update && apt-get upgrade -yq && apt-get install -y icedove enigmail
