@@ -1,0 +1,7 @@
+{
+ "executable": "/usr/bin/vim",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "A simple powerful text editor",
+ "access-working-directory": true,
+ "basic-common-permissions" : true
+}

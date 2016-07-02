@@ -1,0 +1,7 @@
+{
+ "description":"INO tool for managing/building arduino projects.",
+ "maintainer":"Timothy Hobbs <timothyhobbs@seznam.cz>",
+ "access-working-directory":true,
+ "serial-devices":true,
+ "executable":"/usr/local/bin/ino"
+}

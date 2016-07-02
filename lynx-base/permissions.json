@@ -1,0 +1,7 @@
+{
+ "executable": "/usr/bin/lynx",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "A simple text based web browser",
+ "basic-common-permissions" : true,
+ "allow-network-access": true
+}

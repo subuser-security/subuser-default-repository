@@ -1,0 +1,8 @@
+[0, "libdebian\n---------\nBase image with almost everything you'd ever need.", [["", 1], ["", 6]]]
+[1, "libx11\n------\nIntermediate layer present for compatibility purposes.", [["", 2], ["", 4]]]
+[2, "iceweasel-base\n------------\nBase image for iceweasel. Iceweasel is installed in this image.", [["", 3]]]
+[3, "iceweasel\n---------\nThis is a \"thin\" layer into which updates are intsalled.\nThe /subuser/check-for-updates script is present here.", []]
+[4, "libreoffice-base\n----------------\nLibreoffice is installed into this image.", [["", 5]]]
+[5, "libreoffice\n-----------\n\"Thin\" layer into which updates are installed.\nThe /subuser/check-for-updates script is present here.", []]
+[6, "vim-base\n--------\nImage into which vim is installed.", [["", 7]]]
+[7, "vim\n---\n\"Thin\" layer for installing updates.\nThe /subuser/check-for-updates script is present here.", []]

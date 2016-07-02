@@ -1,0 +1,9 @@
+{
+ "description"                : "GUI rss reader for linux"
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/liferea"
+ ,"gui":{"clipboard":true,"cursors":true,"system-tray":true}
+ ,"allow-network-access"      : true
+ ,"basic-common-permissions" : true
+}
+

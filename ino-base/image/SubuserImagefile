@@ -1,0 +1,3 @@
+FROM-SUBUSER-IMAGE libjava
+RUN apt-get update && apt-get install -yyq arduino picocom python make python-setuptools python-pip
+RUN pip install ino

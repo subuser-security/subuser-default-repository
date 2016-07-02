@@ -1,2 +1,3 @@
-FROM-SUBUSER-IMAGE libx11
-RUN TERM=linux apt-get install -y xterm
+FROM-SUBUSER-IMAGE xterm-base
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates

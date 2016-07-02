@@ -1,2 +1,3 @@
-FROM-SUBUSER-IMAGE libdebian
-RUN apt-get install -y pandoc
+FROM-SUBUSER-IMAGE pandoc-base
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates

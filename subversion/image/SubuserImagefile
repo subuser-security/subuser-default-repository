@@ -1,2 +1,3 @@
-FROM-SUBUSER-IMAGE libdebian
-RUN apt-get install -y subversion
+FROM-SUBUSER-IMAGE subversion-base
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates

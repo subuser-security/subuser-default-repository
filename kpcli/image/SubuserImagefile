@@ -1,4 +1,3 @@
-FROM debian:jessie
-ENV LANG C.UTF-8
-RUN apt-get update -yqq
-RUN TERM=linux apt-get install -yqq kpcli
+FROM-SUBUSER-IMAGE kpcli-base
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates

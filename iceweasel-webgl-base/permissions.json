@@ -1,0 +1,13 @@
+{
+ "description": "The firefox web browser with webgl support.",
+ "sound-card": true,
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "executable": "/usr/bin/firefox",
+ "gui":{"clipboard":true,"cursors":true},
+ "graphics-card": true,
+ "user-dirs": [
+  "Downloads"
+ ],
+ "allow-network-access": true,
+ "basic-common-permissions" : true
+}

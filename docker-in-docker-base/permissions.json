@@ -1,0 +1,10 @@
+{
+ "executable": "/usr/local/bin/wrapdocker",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "Run docker in docker.  This doesn't have any security benefits, but it is good for testing.  This launches a shell with docker-in-docker running in it.",
+ "access-working-directory": true,
+ "privileged": true,
+ "as-root": true,
+ "allow-network-access": true,
+ "basic-common-permissions": true
+}

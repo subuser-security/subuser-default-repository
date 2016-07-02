@@ -1,0 +1,11 @@
+{
+ "description"                : "The firefox web browser with java support."
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/firefox"
+ ,"user-dirs"                 : ["Downloads"]
+ ,"gui":{"clipboard":true,"cursors":true}
+ ,"sound-card"                : true
+ ,"allow-network-access"      : true
+ ,"basic-common-permissions" : true
+}
+
