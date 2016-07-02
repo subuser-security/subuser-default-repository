@@ -1,0 +1,9 @@
+{
+ "description"                : "A test suit running and editing tool"
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/local/bin/texttest"
+ ,"gui"                       : {"clipboard":true,"cursors":true}
+ ,"access-working-directory" : true
+ ,"basic-common-permissions" : true
+}
+

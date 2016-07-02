@@ -1,0 +1,11 @@
+{
+ "stateful-home": true,
+ "executable": "/usr/bin/svn",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "allow-network-access": true,
+ "inherit-locale": true,
+ "access-working-directory": true,
+ "inherit-timezone": true,
+ "basic-common-permissions": true,
+ "description": "The svn version control system"
+}

@@ -1,0 +1,8 @@
+{
+ "executable": "/usr/bin/git",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "The git version control system",
+ "access-working-directory": true,
+ "allow-network-access": true,
+ "basic-common-permissions" : true
+}

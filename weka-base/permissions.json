@@ -1,0 +1,11 @@
+{
+ "description": "The WEKA machine learning system.",
+ "maintainer": "Scott Powers <spowers dot 42 (at) gmail dot com>",
+ "executable": "/usr/bin/weka-launcher",
+ "user-dirs": [
+  "data"
+ ],
+ "gui" : {"clipboard":true,"cursors":true},
+ "access-working-directory": true,
+ "basic-common-permissions" : true
+}

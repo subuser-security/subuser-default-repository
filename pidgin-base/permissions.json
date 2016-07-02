@@ -1,0 +1,14 @@
+{
+ "maintainer": "Timothy <timothyhobbs@seznam.cz>",
+ "executable": "/usr/bin/pidgin",
+ "allow-network-access": true,
+ "sound-card": true,
+ "basic-common-permissions": true,
+ "description": "Pidgin chat client",
+ "webcam": true,
+ "gui": {
+  "clipboard": true,
+  "system-tray": true,
+  "cursors": false
+ }
+}

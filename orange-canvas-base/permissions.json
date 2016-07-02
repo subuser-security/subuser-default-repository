@@ -1,0 +1,11 @@
+{
+ "description": "The orange canvas data mining/machine learning platform",
+ "maintainer": "Scott Powers <spowers dot 42 (at) gmail dot com>",
+ "executable": "/usr/local/bin/orange-canvas",
+ "user-dirs": [
+  "data"
+ ],
+ "gui":{"clipboard":true,"cursors":true},
+ "access-working-directory": true,
+ "basic-common-permissions" : true
+}

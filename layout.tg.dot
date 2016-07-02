@@ -1,0 +1,17 @@
+digraph graphname{
+0[shape=rect label="libdebian\l---------\lBase image with almost everything you'd ever need.\l"]
+1[shape=rect label="libx11\l------\lIntermediate layer present for compatibility purposes.\l"]
+2[shape=rect label="iceweasel-base\l------------\lBase image for iceweasel. Iceweasel is installed in this image.\l"]
+3[shape=rect label="iceweasel\l---------\lThis is a \"thin\" layer into which updates are intsalled.\lThe /subuser/check-for-updates script is present here.\l"]
+4[shape=rect label="libreoffice-base\l----------------\lLibreoffice is installed into this image.\l"]
+5[shape=rect label="libreoffice\l-----------\l\"Thin\" layer into which updates are installed.\lThe /subuser/check-for-updates script is present here.\l"]
+6[shape=rect label="vim-base\l--------\lImage into which vim is installed.\l"]
+7[shape=rect label="vim\l---\l\"Thin\" layer for installing updates.\lThe /subuser/check-for-updates script is present here.\l"]
+0 -> 1 [label="0:"]
+0 -> 6 [label="1:"]
+1 -> 2 [label="0:"]
+1 -> 4 [label="1:"]
+2 -> 3 [label="0:"]
+4 -> 5 [label="0:"]
+6 -> 7 [label="0:"]
+}

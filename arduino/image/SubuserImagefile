@@ -1,2 +1,3 @@
-FROM-SUBUSER-IMAGE libjava
-RUN apt-get update && apt-get upgrade -y && apt-get install -yyq arduino
+FROM-SUBUSER-IMAGE arduino-base
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates

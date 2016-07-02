@@ -1,0 +1,6 @@
+#!/bin/bash
+apt-get update
+apt-get upgrade --show-upgraded --assume-no
+[ $? -eq 0 ] && exit 1
+[ $? -eq 1 ] && exit 0
+

@@ -1,7 +1,6 @@
 FROM debian
 ENV LANG C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
-ADD check-for-updates /subuser/check-for-updates
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -yqq iceweasel icedove emacs git irssi keepassx libreoffice pandoc vim
 ONBUILD RUN apt-get update && apt-get upgrade -y

@@ -1,0 +1,7 @@
+{
+ "description": "Convert documents from one format to another.",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "executable": "/usr/bin/pandoc",
+ "access-working-directory": true,
+ "basic-common-permissions" : true
+}

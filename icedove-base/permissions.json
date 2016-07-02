@@ -1,0 +1,10 @@
+{
+ "description"                : "The icedove email client."
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/bin/icedove"
+ ,"user-dirs"                 : ["Mail"]
+ ,"gui"                       : {"clipboard":true,"cursors":true}
+ ,"allow-network-access"      : true
+ ,"basic-common-permissions"  : true
+}
+

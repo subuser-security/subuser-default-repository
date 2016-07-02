@@ -1,0 +1,13 @@
+{
+ "maintainer": "Timothy <timothyhobbs@seznam.cz>",
+ "executable": "/usr/bin/blender",
+ "sound-card": true,
+ "basic-common-permissions": true,
+ "access-working-directory": true,
+ "graphics-card": true,
+ "gui": {
+  "clipboard": true,
+  "cursors": false,
+  "system-tray": false
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "executable": "/usr/bin/kpcli",
+ "maintainer": "Timothy Hobbs <timothyhobbs (at) seznam dot cz>",
+ "description": "CLI interface to KeePass",
+ "access-working-directory": true,
+ "basic-common-permissions" : true
+}

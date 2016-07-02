@@ -1,0 +1,9 @@
+{
+ "description"                : "3D breakout"
+ ,"maintainer"                : "Timothy Hobbs <timothyhobbs (at) seznam dot cz>"
+ ,"executable"                : "/usr/games/briquolo"
+ ,"x11"                       : true
+ ,"graphics-card"             : true
+ ,"basic-common-permissions"  : true
+}
+
