@@ -1,6 +1,7 @@
 FROM debian
 ENV LANG C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
+RUN rm /etc/apt/apt.conf.d/docker-no-languages
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -yqq iceweasel icedove emacs git irssi keepassx libreoffice pandoc vim
 ONBUILD RUN apt-get update && apt-get upgrade -y
