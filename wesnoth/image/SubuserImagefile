@@ -1,0 +1,3 @@
+FROM-SUBUSER-IMAGE wesnoth-base
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates
