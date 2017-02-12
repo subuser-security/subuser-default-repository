@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ ! -d "$HOME/.cargo/bin" ]; then
+  update-rust 
+fi
+
+echo "Welcome to the RUST environment. To update rust, run update-rust."
+PATH=$PATH:$HOME/.cargo/bin /bin/bash

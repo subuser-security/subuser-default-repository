@@ -1,0 +1,15 @@
+{
+ "maintainer": "Timothy Hobbs <timothyhobbs@seznam.cz>",
+ "description": "Rust programming environment.",
+ "access-working-directory": true,
+ "stateful-home": true,
+ "executable": "/usr/bin/setup-rust",
+ "allow-network-access": true,
+ "basic-common-permissions": true,
+ "gui": {
+  "clipboard": true,
+  "border-color": "red",
+  "cursors": false,
+  "system-tray": false
+ }
+}
