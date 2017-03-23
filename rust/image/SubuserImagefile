@@ -1,5 +1,5 @@
 FROM-SUBUSER-IMAGE libx11@default
-RUN apt-get update && apt-get upgrade -y && apt-get install -y curl
+RUN apt-get update && apt-get upgrade -y && apt-get install -y curl build-essential
 ADD setup-rust /usr/bin/setup-rust
 ADD update-rust /usr/bin/update-rust
 RUN chmod +x /usr/bin/setup-rust /usr/bin/update-rust
