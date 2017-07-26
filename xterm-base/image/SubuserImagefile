@@ -1,2 +1,2 @@
-FROM-SUBUSER-IMAGE libx11
-RUN TERM=linux apt-get install -y xterm
+FROM debian
+RUN TERM=linux apt-get update && apt-get upgrade -y && apt-get install -y xterm
