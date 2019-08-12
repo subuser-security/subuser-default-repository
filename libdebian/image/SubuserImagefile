@@ -6,5 +6,5 @@ RUN apt-get update -qq && apt-get install -y locales -qq && locale-gen en_US.UTF
 ENV LANG C.UTF-8
 ENV LANGUAGE C.UTF-8
 ENV LC_ALL C.UTF-8
-RUN apt-get install -yqq iceweasel icedove emacs git irssi keepassx libreoffice pandoc vim
+RUN apt-get install -yqq firefox-esr thunderbird emacs git irssi keepassx libreoffice pandoc vim
 ONBUILD RUN apt-get update && apt-get upgrade -y
