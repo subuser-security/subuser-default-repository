@@ -1,12 +1,15 @@
 {
- "description"                : "Battle for Wesnoth",
- "maintainer"                 : "Cristian Consonni <kikkocristian (at) gmail (dot) com",
- "executable"                 : "/usr/games/wesnoth-1.12",
- "gui"                        : {"cursors": true},
- "sound-card"                 : true,
- "allow-network-access"       : true,
- "basic-common-permissions"   : true,
- "stateful-home"              : true,
- "inherit-locale"             : true,
- "inherit-timezone"           : true
+	"description": "Battle for Wesnoth",
+	"maintainer": "Cristian Consonni <cristian (at) balist (dot) es",
+	"executable": "/usr/games/wesnoth",
+	"gui": {
+		"cursors": true
+	},
+	"sound-card": true,
+	"allow-network-access": true,
+	"basic-common-permissions": {
+		"stateful-home": true,
+		"inherit-locale": true,
+		"inherit-timezone": true
+	}
 }

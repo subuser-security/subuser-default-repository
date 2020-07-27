@@ -1,13 +1,10 @@
 FROM-SUBUSER-IMAGE libx11@default
 ENV DEBIAN_FRONTEND noninteractive
 
-# Add backports repository for Debian, containing Battle For Wesnoth 1.12
-ADD backports.list /etc/apt/sources.list.d/backports.list
-
 # update + upgrade + install locales and wesnoth
 # the locales package is needed for the issue below 
 RUN apt-get update && apt-get upgrade -yq && \
-    apt-get install -yq apt-utils locales 'wesnoth-1.12*'
+    apt-get install -yq apt-utils locales wesnoth
 
 # solves the issue:
 # locale::facet::_S_create_c_locale name not valid
